@@ -6,7 +6,7 @@ return addElementToBeginningOfArray;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-const destructivelyAddElementToBeginningOfArray = ['foo', ...array];
+const destructivelyAddElementToBeginningOfArray.unshift = ['foo'];
 return destructivelyAddElementToBeginningOfArray;
 }
 
