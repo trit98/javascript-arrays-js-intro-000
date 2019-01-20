@@ -17,7 +17,8 @@ return addElementToEndOfArray;
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  const destructivelyAddElementToEndOfArray = [ 1, 'foo'];
+  var destructivelyAddElementToEndOfArray
+  destructivelyAddElementToEndOfArray.push = [ 1, 'foo'];
   return destructivelyAddElementToEndOfArray;
 }
 
